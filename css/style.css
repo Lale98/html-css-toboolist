@@ -1,7 +1,15 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: green;
+}
 
+/* header */
+#titolo {
+    background-color: white;
+    margin: 0;
+}
 #logo {
     vertical-align: middle;
 }
@@ -12,3 +20,35 @@ h1 {
     vertical-align: middle;
 }
 
+/* main */
+#box1 {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+#pulsante-blu {
+    background-color: #47ADF1 ;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+}
+#pulsante-bianco {
+    background-color: white ;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color: grey;
+}
+#box2 {
+    background-color: white;
+    margin: auto;
+    height: 700px;
+    width: 70%;
+    margin-top: 5px;
+}
