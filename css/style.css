@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+    vertical-align: middle;
+}
+h1 {
+    display: inline;
+    font-size: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
